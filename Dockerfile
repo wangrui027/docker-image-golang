@@ -5,4 +5,6 @@ RUN apt-get update \
     && echo set nu >> /etc/vim/vimrc \
     && apt-get clean
 
+ENV LANG=C.UTF-8
+
 WORKDIR /root
